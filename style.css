@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    font-family: 'Caveat', cursive;
+    font-family: 'Poppins', sans-serif;
+} */
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(./img/mars_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    width: 80%;
+    margin: auto;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    
+}
+
+
+
+nav>a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 8px;
+    color: maroon;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+
+.nav-links{
+    flex: 1;
+    margin-left: 30%;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links li{
+    list-style: none;
+    padding: 20px 20px;
+}
+
+.links li a{
+    text-decoration: none;
+    color: maroon;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 3px 6px;
+    background: transparent;
+    transition: all 0.4s;
+}
+
+
+.links li a:hover{
+    background-color: maroon;
+    color: white;
+}
+
+
